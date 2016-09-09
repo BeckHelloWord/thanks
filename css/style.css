@@ -15,6 +15,11 @@ img {
 ul li {
   list-style: none; }
 
+em {
+  font-style: normal;
+  font-size: 22px;
+  color: #7c4702; }
+
 .thanks-container {
   width: 100%;
   min-width: 1200px;
@@ -25,6 +30,27 @@ ul li {
     width: 1920px;
     margin-left: -960px;
     color: #e7cc77; }
+
+.d-ib {
+  display: inline-block; }
+
+.mt364 {
+  margin-top: 364px; }
+
+.mt64 {
+  margin-top: 64px; }
+
+.mb94 {
+  margin-bottom: 94px; }
+
+.mt41 {
+  margin-top: 41px; }
+
+.f-brown {
+  color: #7c4702; }
+
+.f-yellow {
+  color: #e7cc77; }
 
 .thanks-title {
   width: 396px;
@@ -37,17 +63,8 @@ ul li {
 .title-bg-yellow {
   background: url("../images/icon_titile_yellow.png") no-repeat center; }
 
-.d-ib {
-  display: inline-block; }
-
-.mt364 {
-  margin-top: 364px; }
-
-.mt41 {
-  margin-top: 41px; }
-
-.f-brown {
-  color: #7c4702; }
+.title-bg-brown {
+  background: url("../images/title_icon_brown.png") no-repeat center; }
 
 .thanks-banner {
   width: 100%;
@@ -88,6 +105,8 @@ ul li {
         font-size: 22px; }
       .thanks-banner .prize-items > div strong {
         color: #e7cc77; }
+    .thanks-banner .prize-items em {
+      color: #6fb3ff; }
     .thanks-banner .prize-items .prize-03 {
       margin-right: 31px; }
     .thanks-banner .prize-items .prize-04 {
@@ -117,3 +136,25 @@ ul li {
         letter-spacing: normal;
         color: #fff;
         background: #7c4702; }
+
+.Reminder {
+  text-align: center;
+  background: #d7b36c; }
+  .Reminder .Reminder-txt {
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    color: #7c4702; }
+    .Reminder .Reminder-txt li {
+      line-height: 38px;
+      text-align: left; }
+
+.activity-desc {
+  background: url("../images/activity_desc_img.jpg") no-repeat center;
+  text-align: center; }
+  .activity-desc .activity-desc-txt {
+    display: inline-block; }
+    .activity-desc .activity-desc-txt li {
+      text-align: left;
+      font-size: 22px;
+      color: #e7cc77; }
